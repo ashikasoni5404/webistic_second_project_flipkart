@@ -6,7 +6,7 @@ import Stories from './component/stories/Stories';
 function App() {
   return (
     <div className="App">
-
+<Stories/>
     </div>
   );
 }

@@ -1,0 +1,75 @@
+.story{
+   padding: 30px;
+    color: #666;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.5;
+}
+.s_head{
+  font-size: 25px;
+}
+.p_ac{
+    text-decoration: none;
+    color: #666;
+    border-right: 2px solid #666;
+    padding-right: 5px;
+    font-size: 20px;
+    padding-left: 5px;
+    cursor: pointer;text-transform: capitalize;
+}
+.last{
+    text-decoration: none;
+    color: #666;
+    padding-right: 5px;
+    font-size: 20px;
+    padding-left: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+.p_content{
+    font-size: 20px;
+    color: #666;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+@media screen and (min-width: 601px) {
+    .p_ac {
+      font-size: 20px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .p_ac {
+      font-size: 15px;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .s_head {
+      font-size: 25px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .s_head {
+      font-size: 20px;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .p_content {
+      font-size: 20px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .p_content {
+      font-size: 15px;
+    }
+  }

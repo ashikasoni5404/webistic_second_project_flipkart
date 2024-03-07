@@ -5,9 +5,13 @@ import Stories from './component/stories/Stories';
 
 function App() {
   return (
+  
     <div className="App">
-<Stories/>
+      <Slider/>
+     <Kitchen/>
+     <Stories/>
     </div>
+
   );
 }
 

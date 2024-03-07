@@ -1,35 +1,41 @@
 import React from "react";
 import "./slider.css"
+import foto from "../slider/sli.png";
+import foto2 from "../slider/sli2.png";
+import foto3 from "../slider/sli3.png"
+import foto4 from "../slider/sli4.png";
 
 const Slider = () => {
+    
     return (
-        <div>
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="">
+            <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <a href="https://www.flipkart.com/">
-                            <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/eae7bd669ddd2528.jpg?q=20" class="d-block w-100" alt="#" />
+                        <a className="" href="https://www.flipkart.com/">
+                            <img  src={foto} class="sli_foto" alt="#" />
                         </a>
                     </div>
-                    <div class="carousel-item">
-                        <a href="#">
-                            <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/ce6cc3b532e714c6.jpg?q=20" class="d-block w-100" alt="#" />
+                    <div class="carousel-item active">
+                        <a className="" href="https://www.flipkart.com/">
+                            <img  src={foto2} class="sli_foto" alt="#" />
                         </a>
                     </div>
-                    <div class="carousel-item">
-                        <a href="#">
-                            <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/ece413e0bec6e507.jpg?q=20" class="d-block w-100" alt="#" />
-                        </a>
-                    </div> <div class="carousel-item">
-                        <a href="#">
-                            <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/ce6cc3b532e714c6.jpg?q=20" class="d-block w-100" alt="#" />
+                    <div class="carousel-item active">
+                        <a className="" href="https://www.flipkart.com/">
+                            <img  src={foto3} class="sli_foto" alt="#" />
                         </a>
                     </div>
-                    <div class="carousel-item">
-                        <a href="#">
-                            <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/ece413e0bec6e507.jpg?q=20" class="d-block w-100" alt="#" />
+                    <div class="carousel-item active">
+                        <a className="" href="https://www.flipkart.com/">
+                            <img  
+                            src= {foto4} class="sli_foto" alt="#" />
                         </a>
                     </div>
+                  
+                  
+                
+                
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

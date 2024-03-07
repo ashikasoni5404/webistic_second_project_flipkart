@@ -5,7 +5,8 @@ const Kitchen = () => {
             <div class="card-group">
                 <div class="card">
                     <a className="kit_tag" href="#" >
-                        <img  className="kit-img"  src="https://rukminim2.flixcart.com/fk-p-flap/520/280/image/ec6cf773ae886bd7.jpg?q=20" class="card-img-top" alt="..." />
+                        <img  className="kit-img"  src=
+                        "https://rukminim2.flixcart.com/fk-p-flap/520/280/image/ec6cf773ae886bd7.jpg?q=20" class="card-img-top" alt="..." />
                     </a>
                 </div>
 
@@ -26,6 +27,14 @@ const Kitchen = () => {
                     </a>
                 </div>
             </div>
+
+
+
+
+
+
+
+
         </div>
     )
 }

@@ -1,0 +1,19 @@
+.sli_foto
+{
+   height: 50vh;
+   width: 100%;
+}
+
+   @media only screen and (max-width: 767px) {
+      .sli_foto{
+         height : 40vh; 
+      }
+    
+   }
+ 
+   @media only screen and (min-width: 768px) {
+      .sli_foto{
+         height: 70vh; 
+      }
+    
+   }
